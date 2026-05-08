@@ -6,7 +6,7 @@ box-sizing : 0;
 }
 
 body{
-background-color : rgb(107, 135, 207);/*mudar*/
+background-color : rgb(176, 243, 169);/*mudar*/
 color: black;/*mudar*/
 display:flex;
 justify-content : center;
@@ -45,7 +45,7 @@ font-size : 18px;/*m*/
 button{
 width:80px;/*m*/
 height:80px;
-background:radial-gradient(circle,rgb(0, 102, 165),rgb(38, 0, 255));/*m*/
+background:radial-gradient(circle,rgb(0, 0, 0),rgb(76, 240, 76));/*m*/
 border-radius:50%;
 border:none;
 cursor:pointer;
@@ -81,4 +81,13 @@ justify-content: center;
   max-width: 100%;           /* Garante que fique alinhado com o h1 */
   text-align: center;        /* Alinhamento explícito */
 }
-
+nav{
+display: flex;
+flex-direction: row;
+gap: 100px;
+}
+div{
+display: flex;  
+flex-direction: row;
+gap: 20px;
+}
